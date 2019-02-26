@@ -45,4 +45,5 @@ def main():
     ip = get_ip(host, sock)
     scan_in_range(1, 1000, ip, sock)
 
-main()
+if __name__ == "__main__":
+    main()
