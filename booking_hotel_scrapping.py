@@ -69,4 +69,5 @@ def main():
     data = get_hotel_information(hotel_url)
     print(data)
 
-main()
+if __name__ == "__main__":
+    main()
